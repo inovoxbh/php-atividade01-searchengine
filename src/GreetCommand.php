@@ -12,6 +12,7 @@ class GreetCommand extends Command
     {
         $this
             ->setName('greet')
+            ->setDescription('exibe mensagem de boas vindas.')
             ->addArgument('name');
     }
 
